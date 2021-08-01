@@ -60,6 +60,7 @@ call s:HL('SignColumn', g:niscolor_palette.white0, g:niscolor_palette.bg2)
 
 call s:HL('LspDiagnosticsDefaultError', g:niscolor_palette.red0, g:niscolor_palette.none)
 call s:HL('LspDiagnosticsDefaultWarning', g:niscolor_palette.yellow, g:niscolor_palette.none)
+call s:HL('LspDiagnosticsDefaultHint', g:niscolor_palette.white0, g:niscolor_palette.none)
 
 call s:HL('NvimTreeFolderName', g:niscolor_palette.violet0, g:niscolor_palette.none)
 call s:HL('NvimTreeOpenedFolderName', g:niscolor_palette.pink1, g:niscolor_palette.none)
@@ -67,3 +68,4 @@ call s:HL('NvimTreeOpenedFolderName', g:niscolor_palette.pink1, g:niscolor_palet
 call s:HL('NvimTreeOpenedFile', g:niscolor_palette.blue2, g:niscolor_palette.none)
 call s:HL('NvimTreeSpecialFile', g:niscolor_palette.blue1, g:niscolor_palette.none)
 call s:HL('NvimTreeExecFile', g:niscolor_palette.blue0, g:niscolor_palette.none)
+call s:HL('Pmenu', g:niscolor_palette.blue0, g:niscolor_palette.bg2)
