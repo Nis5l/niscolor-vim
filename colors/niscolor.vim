@@ -38,6 +38,7 @@ let g:niscolor_palette = {
 call s:HL('Normal', g:niscolor_palette.white0, g:niscolor_palette.bg0)
 call s:HL('Terminal', g:niscolor_palette.white0, g:niscolor_palette.bg0)
 call s:HL('EndOfBuffer', g:niscolor_palette.white0, g:niscolor_palette.bg0)
+call s:HL('VertSplit', g:niscolor_palette.blue2, g:niscolor_palette.bg0)
 
 call s:HL('Comment', g:niscolor_palette.blue1, g:niscolor_palette.none)
 call s:HL('Constant', g:niscolor_palette.blue0, g:niscolor_palette.none)
@@ -59,3 +60,10 @@ call s:HL('SignColumn', g:niscolor_palette.white0, g:niscolor_palette.bg2)
 
 call s:HL('LspDiagnosticsDefaultError', g:niscolor_palette.red0, g:niscolor_palette.none)
 call s:HL('LspDiagnosticsDefaultWarning', g:niscolor_palette.yellow, g:niscolor_palette.none)
+
+call s:HL('NvimTreeFolderName', g:niscolor_palette.violet0, g:niscolor_palette.none)
+call s:HL('NvimTreeOpenedFolderName', g:niscolor_palette.pink1, g:niscolor_palette.none)
+
+call s:HL('NvimTreeOpenedFile', g:niscolor_palette.blue2, g:niscolor_palette.none)
+call s:HL('NvimTreeSpecialFile', g:niscolor_palette.blue1, g:niscolor_palette.none)
+call s:HL('NvimTreeExecFile', g:niscolor_palette.blue0, g:niscolor_palette.none)
