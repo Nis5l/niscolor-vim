@@ -25,7 +25,7 @@ let g:niscolor_palette = {
 	\ 'blue2':   ['#2e3b74', '25'],
 	\ 'blue3':   ['#252c4c', '60'],
 	\ 'pink0':   ['#b057af', '96'],
-	\ 'pink1':   ['#f56ac7', '168'],
+	\ 'pink1':   ['#d85daf', '168'],
 	\ 'violet0': ['#9f6fd5', '177'],
 	\ 'violet1': ['#b45ad5', '170'],
 	\ 'white0':  ['#c6d1d3', '254'],
